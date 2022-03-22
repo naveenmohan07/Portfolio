@@ -1,0 +1,241 @@
+*{
+    margin: 0% auto;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.logo{
+    font-size: 43px;
+    margin-left: 0px;
+    color: white;
+}
+.navbar{
+    background-color: crimson;
+    font-family: comic sams ns ;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+}
+
+.navbar .full{
+    
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+}
+.navbar .link li a{
+    color: white; 
+    padding: 10px;
+}
+.navbar .link li{
+    list-style: none;
+    display: inline-block; 
+}
+.navbar .link{
+    margin-left: 600px;
+}
+.navbar .link .nav-btn:hover{
+    font-size: 23px;
+    color: black;
+}
+.about {
+    position: relative;
+    padding-top: 20px;
+    display: flex;
+    background-image: url("Images/background.jpg");
+    height: 710px;
+}
+
+.about .header{
+    padding-top: 150px;
+    color: white;
+}
+.about .img{
+    padding-top: 80px;
+}
+.text1{
+    margin-top: 50px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+.name{
+    font-size: 34px;
+    font-weight: 300;
+    font-family: comic sans ms;
+}
+
+.name span{
+    color: crimson;
+    animation: wraptext 5s linear 2s infinite;
+}
+@keyframes wraptext{
+    0%{font-size: 34;}
+    25%{font-size: 44px;}
+    50%{font-size: 14;}
+    100%{font-size: 34;}
+}
+.context{
+    padding-top: 60px;
+}
+.contact{
+    margin-top: 20px;
+}
+.con{
+    display: flex;
+    padding-top: 40px;
+    font-size: 30px;
+    /* color: crimson; */
+}
+i:hover{
+    display: flex;
+    font-size: 50px;
+    color: crimson;
+    transition: 0.3s ease;
+}
+.personel{
+    display: flex;
+    padding-top: 100px;
+    background-color: seashell;
+    height: 710px;
+}
+.personel .head {
+    margin-top: 170px;
+}
+.text1{
+    font-size: 25px;
+}
+.text3{
+    margin-top: 20px;
+    font-family: comic sans ms;
+}
+.personel .img{
+    padding-top: 30px;
+}
+button{
+    margin: 50px 0px 0px 300px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    border-color: crimson;
+    border-style: groove;
+    box-shadow: 6px 7px 30px crimson;
+    color: crimson;
+}
+button:hover{
+    background-color: crimson;
+    color: white;
+    transition: 0.3s ease-in;
+}
+.known{
+    background-color: black;
+    height: 630px;
+}
+.known .text {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 19px;
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+}
+.known .card{
+    display: flex;
+    margin-top: 120px;
+    height: 390px;
+}
+.known .card .card1,.card2,.card3{
+    margin-top: 50px;
+    /* border-color: white; */
+    background-color: rgba(31, 30, 30, 0.826);
+    /* border-style: groove; */
+    border-radius: 9px;
+    height: 220px;
+    width: 390px;
+}
+.known .card .card1:hover ,.card2:hover ,.card3:hover{
+    margin-top: 60px;
+    border-style: groove;
+    background-color: crimson;
+    border-radius: 9px;
+    height: 220px;
+    width: 390px;
+    transition: 0.3s ease-in;
+}
+
+.known .card .card1,.card2,.card3,.text:hover{
+    color: white;
+    padding: 20px;
+    transition: 0.3s all ease-out;
+}
+.icon{
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+.skills{
+    height: 630px;
+}
+.skills .skillText{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 23px;
+    padding: 25px;
+    text-align: center;
+    color: black;
+}
+hr{
+    border-top: solid 1px lightgray;
+    /* margin-bottom: 120px; */
+}
+.map{
+    margin-top: 10px;
+    position: relative;
+    width: 500px;
+    height: 2px;
+    background-color: lightgray;
+}
+.lang {
+    margin-left: 100px;
+    padding-top: 10px;
+}
+.percentage{
+    opacity: 0.3;
+    padding-top: 10px;
+    margin-right: 100;
+}
+.levelhtml{
+    
+    position: absolute;
+    width: 400px;
+    height: 2px;  
+    background-color: crimson;
+}
+
+.levelcss{
+    
+    position: absolute;
+    width: 200px;
+    height: 2px;  
+    background-color: crimson;
+}
+.leveljs{
+    
+    position: absolute;
+    width: 200px;
+    height: 2px;  
+    background-color: crimson;
+}
+.levelmean{
+    
+    position: absolute;
+    width: 300px;
+    height: 2px;  
+    background-color: crimson;
+}
+.whole{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
